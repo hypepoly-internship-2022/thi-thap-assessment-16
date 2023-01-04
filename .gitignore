@@ -1,0 +1,65 @@
+# Tệp .gitignore này nên được đặt ở thư mục gốc của thư mục dự án Unity của bạn
+#
+# Nhận thông tin mới nhất từ https://github.com/github/gitignore/blob/master/Unity.gitignore
+#
+/[Sẽ] Ibrary/
+/[Tt] Emp/
+/[Oo] bj/
+/[Bb] UILD/
+/[Bb] UILDS/
+/[Sẽ] OG/
+/[Ừm] emoryCaptures/
+
+# Chỉ nên bỏ qua dữ liệu meta nội dung khi nội dung tương ứng cũng bị bỏ qua
+! /[Aa]ssets/**/*.meta
+
+# Bỏ ghi chú dòng này nếu bạn muốn bỏ qua plugin công cụ lưu trữ tài sản
+# /[Aa]ssets/AssetStoreTools*
+
+# Plugin Jetbrains Rider tự động tạo
+[Aa] ssets / Plugins / Biên tập viên / JetBrains*
+
+# Thư mục bộ nhớ cache của Visual Studio
+.Vs/
+
+# Mã VS
+.vsmã
+
+# Ý tưởng
+.ý tưởng
+
+# Thư mục Gradle cache
+.gradle/
+
+# Giải pháp VS / MD / Consulo tự động và các tệp dự án
+Xuất khẩuObj/
+.consulo/
+*.csproj
+*.unityproj
+*..sln
+*.suo
+*..tmp
+*.người dùng
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*..pdb
+*..mdb
+*.opendb
+*. VC.db
+
+# Các tệp meta do Unity3D tạo ra
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Tệp được tạo Unity3D trên báo cáo sự cố
+sysinfo.txt
+
+# Xây dựng
+*..apk
+*.unitygói
+
+# Tệp được tạo Crashlytics
+crashlytics-build.properties
